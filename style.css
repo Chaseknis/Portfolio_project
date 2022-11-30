@@ -1,3 +1,12 @@
-h1 {
-  color: yellow;
+* {
+  font-family: "Poppins", sans-serif;
+}
+.logo a {
+  color: #6070ff;
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
