@@ -6,14 +6,13 @@
   font-family: Poppins, sans-serif;
 }
 
-.container {
-  max-width: 390px;
-  height: 100vh;
+main {
+  min-width: 375px;
+  height: 718px;
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 body {
@@ -31,7 +30,7 @@ h1 {
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 45px;
 }
 
 h2 {
@@ -51,10 +50,10 @@ p {
   line-height: 24px;
 }
 
-main {
+.base_section {
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 12px;
+  padding-top: 68px;
 }
 
 nav a {
@@ -66,6 +65,8 @@ nav a {
 }
 
 nav {
+  width: 100%;
+  height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
