@@ -87,21 +87,24 @@ ul {
   gap: 20px;
   padding-top: 12px;
 }
+
 .work_section {
   min-width: 375px;
-  height: 100vh;
+  padding-top: 130px;
+  padding-bottom: 130px;
   padding-left: 24px;
   padding-right: 24px;
   background-color: #f7f7f9;
   display: grid;
   align-items: center;
   justify-items: center;
+  gap: 88px;
 }
+
 .card_container {
   width: 327px;
-  height: 552px;
-  background-color: #ffffff;
-  padding-top: 16px;
+  min-height: 552px;
+  background-color: #fff;
   border-radius: 16px;
   display: grid;
   padding: 16px;
@@ -110,6 +113,7 @@ ul {
   position: relative;
   box-sizing: border-box;
 }
+
 .details_wrapper {
   width: 100%;
   display: flex;
@@ -117,31 +121,43 @@ ul {
   align-items: start;
   margin: auto;
 }
+
 h2 {
   color: #172b4d;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
+
+.width_header_2 h2 {
+  max-width: 200px;
+  height: 80px;
+}
+
+.list_wrapper {
+  padding-bottom: 12px;
+}
+
 .list_wrapper ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-content: center;
 }
+
 .list_wrapper .canopy {
   color: #344563;
   list-style: none;
 }
+
 .list_wrapper ul li {
   color: #7a869a;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-}
-.list_wrapper ul li {
   list-style: disc;
 }
+
 .details_wrapper p {
   width: 295px;
   height: 76px;
@@ -150,40 +166,47 @@ h2 {
   font-size: 15px;
   line-height: 24px;
 }
+
 .programing_languages_list {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+  padding-top: 12px;
 }
+
 .programing_languages_list ul li {
-  color: #6070FF;
+  color: #6070ff;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  background: #EBEBFF;
+  background: #ebebff;
   padding: 4px 12px;
   border-radius: 8px;
 }
+
 button {
-  color: #396DF2;
+  color: #396df2;
   background: transparent;
   padding: 16px;
   letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
+
 button:hover {
-  background: #6070FF;
-  color: #FFFFFF;
-  transition: .5s;
+  background: #6070ff;
+  color: #fff;
+  transition: 0.5s;
 }
+
 button:active {
-  color: #FFFFFF;
-  background: #2230D2;
+  color: #fff;
+  background: #2230d2;
 }
+
 button:disabled {
-  color: #5E6C84;
+  color: #5e6c84;
   background: transparent;
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
 }
