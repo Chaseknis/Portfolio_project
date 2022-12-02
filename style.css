@@ -112,6 +112,7 @@ ul {
   justify-items: center;
   position: relative;
   box-sizing: border-box;
+  border: 1px solid #dfe1e6;
 }
 
 .details_wrapper {
@@ -127,11 +128,6 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-}
-
-.width_header_2 h2 {
-  max-width: 200px;
-  height: 80px;
 }
 
 .list_wrapper {
@@ -198,6 +194,7 @@ button:hover {
   background: #6070ff;
   color: #fff;
   transition: 0.5s;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 button:active {
