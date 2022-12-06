@@ -291,7 +291,43 @@ h5 {
   padding-bottom: 36px;
 }
 .contact-page {
+  display: flex;
+  flex-direction: column;
   background: #6070FF;
   padding-left: 24px;
   padding-right: 24px;
+  border-top-left-radius: 100px;
+}
+.contact-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 113px;
+  margin-bottom: 50px;
+}
+.contact-title h2, p{
+  color: #FFFFFF;
+}
+.contact-title p{
+  width: 327px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+form input{
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px 16px;
+}
+form textarea{
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px 38px 15px 16px;
+}
+form::placeholder{
+  color: #B3BAC5;
 }
