@@ -6,13 +6,12 @@
   font-family: Poppins, sans-serif;
 }
 
+body {
+  background-color: #f7f7f9;
+}
 main {
   min-width: 375px;
   height: 718px;
-  background-image: url(images/header-shapes\ mobile@2x.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .base_section {
@@ -20,6 +19,12 @@ main {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 68px;
+  background-color: #fff;
+  border-radius: 0 0 0 100px;
+  background-image: url(images/header-shapes\ mobile@2x.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -95,7 +100,6 @@ ul {
   padding-bottom: 114px;
   padding-left: 24px;
   padding-right: 24px;
-  background-color: #f7f7f9;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -285,4 +289,9 @@ h5 {
   gap: 12px;
   padding-top: 36px;
   padding-bottom: 36px;
+}
+.contact-page {
+  background: #6070FF;
+  padding-left: 24px;
+  padding-right: 24px;
 }
