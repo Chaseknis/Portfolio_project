@@ -293,23 +293,27 @@ h5 {
 .contact-page {
   display: flex;
   flex-direction: column;
+  background-image: url(./images/contact\ form\ shapes-mobile.svg);
   background: #6070FF;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 50px 24px;
   border-top-left-radius: 100px;
 }
 .contact-title{
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
-  margin-top: 113px;
-  margin-bottom: 50px;
+  margin: 50px 0
 }
-.contact-title h2, p{
+.h2-white{
   color: #FFFFFF;
+  font-size: 40px;
 }
-.contact-title p{
+.p-white{
   width: 327px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }
 form{
   display: flex;
@@ -330,4 +334,8 @@ form textarea{
 }
 form::placeholder{
   color: #B3BAC5;
+}
+.button-white {
+  background-color: #fff;
+  color: #6070ff;
 }
