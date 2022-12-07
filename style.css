@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-  width: 300px;
+  width: 80%;
   padding-top: 128px;
   color: #172b4d;
   font-weight: 700;
@@ -53,7 +53,7 @@ h4 {
 }
 
 p {
-  width: 327px;
+  width: 95%;
   padding-top: 12px;
   color: #172b4d;
   font-weight: 400;
@@ -80,6 +80,10 @@ nav {
   padding-top: 16pt;
 }
 
+nav ul {
+  display: none;
+}
+
 ul li {
   list-style: none;
 }
@@ -99,31 +103,34 @@ ul {
   padding-left: 24px;
   padding-right: 24px;
   display: grid;
-  align-items: center;
-  justify-items: center;
+  align-content: center;
+  justify-content: center;
   gap: 88px;
 }
 
 .card_container {
-  width: 327px;
-  min-height: 552px;
+  width: 100%;
   background-color: #fff;
   border-radius: 16px;
   display: grid;
-  padding: 16px;
+  padding: 0 0 16px 0;
   align-items: start;
   justify-items: center;
-  position: relative;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
 }
 
 .details_wrapper {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: start;
   margin: auto;
+}
+
+.img_wrapper img {
+  width: 100%;
+  padding: 16px;
 }
 
 h2 {
@@ -159,7 +166,6 @@ h2 {
 
 .details_wrapper p {
   width: 295px;
-  height: 76px;
   color: #344563;
   font-weight: 400;
   font-size: 15px;
@@ -396,4 +402,142 @@ form::placeholder {
 
 .contact_items_container .button_wrapper {
   padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    height: 73px;
+  }
+  nav ul {
+    display: flex;
+    gap: 32px;
+  }
+  nav ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  nav .hamburger_menu {
+    display: none;
+  }
+  .base_section {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10%;
+    border-radius: 0 0 0 100px;
+    background-image: url(images/Header\ bg.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1397.4px 721.46px;
+  }
+  h1 {
+    width: 28%;
+  }
+  p {
+    width: 68%;
+  }
+  .work_section {
+    min-width: 375px;
+    padding-top: 142px;
+    padding-bottom: 142px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 142px;
+  }
+  .card_container {
+    border-radius: 24px;
+    justify-items: start;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .details_wrapper {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .img_wrapper img {
+    width: 544px;
+  }
+  .card_container {
+    padding: 0 0 0 0;
+  }
+  .about_myself_section {
+    padding-top: 142px;
+    padding-bottom: 142px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about_myself_section p {
+    width: 447px;
+  }
+  .language_wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .programing_languages_container {
+    min-width: 122px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h5 {
+    padding: 0px 12px 20px 12px;
+  }
+  .about_myself_detail_wrapper {
+    min-width: 70%;
+  }
+  .skills_wrap {
+    min-width: 100%;
+  }
+  .contact_items_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  form {
+    width: 447px;
+    padding-bottom: 127px; 
+  }
+  .contact-title {
+    padding-top: 20px; 
+  }
+  .contact-page {
+    width: 100%;
+  }
+  .home_indicator {
+    width: 447px;
+  }
+  .contact-title p {
+    width: 569px;
+  }
+  .button_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact_items_container {
+    background-image: url(images/contact\ form\ background\ shapes.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1290.66px 718.7px;
+    padding: 79px 75px 48px 74pxs;
+  }
+  .home_indicator img {
+    display: none;
+  }
 }
