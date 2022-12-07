@@ -8,7 +8,9 @@
 
 body {
   background-color: #f7f7f9;
+  margin: 0;
 }
+
 main {
   min-width: 375px;
   height: 718px;
@@ -25,10 +27,6 @@ main {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-body {
-  margin: 0;
 }
 
 header {
@@ -195,6 +193,10 @@ button {
   border-radius: 8px;
 }
 
+form button {
+  padding: 12px 16px;
+}
+
 button:hover {
   background: #6070ff;
   color: #fff;
@@ -219,6 +221,7 @@ button:disabled {
   padding-left: 24px;
   padding-right: 24px;
   background-color: #fff;
+  border-top-right-radius: 100px;
 }
 
 .about_myself_section h1 {
@@ -290,51 +293,86 @@ h5 {
   padding-top: 36px;
   padding-bottom: 36px;
 }
+
 .contact-page {
   display: flex;
   flex-direction: column;
-  background-image: url(./images/contact\ form\ shapes-mobile.svg);
-  background: #6070FF;
-  padding: 50px 24px;
+  background-color: white;
+}
+
+.contact_items_container {
+  background-color: #6070ff;
+  background-image: url(/images/contact\ form\ shapes-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 60px 24px;
   border-top-left-radius: 100px;
 }
-.contact-title{
+
+.contact-title {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  margin: 50px 0
+  margin: 50px 0;
 }
-.h2-white{
-  color: #FFFFFF;
+
+.h2-white {
+  color: #fff;
   font-size: 40px;
 }
-.p-white{
+
+.p-white {
   width: 327px;
   font-size: 20px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 300;
   text-align: center;
   color: #fff;
 }
-form{
+
+form {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
-form input{
+
+form input {
   height: 48px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   padding: 15px 16px;
 }
-form textarea{
+
+form textarea {
   height: 170px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   padding: 15px 38px 15px 16px;
 }
-form::placeholder{
-  color: #B3BAC5;
+
+.contact_items_container form button:hover {
+  background: #fff;
+  color: #6070ff;
 }
+
+.contact_items_container form button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.contact_items_container form button:disabled {
+  color: #5e6c84;
+  background: transparent;
+  border: 1px solid #c1c7d0;
+}
+
+form::placeholder {
+  color: #b3bac5;
+}
+
 .button-white {
   background-color: #fff;
   color: #6070ff;
