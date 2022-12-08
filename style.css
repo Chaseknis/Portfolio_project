@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-  width: 300px;
+  width: 80%;
   padding-top: 128px;
   color: #172b4d;
   font-weight: 700;
@@ -53,7 +53,7 @@ h4 {
 }
 
 p {
-  width: 327px;
+  width: 95%;
   padding-top: 12px;
   color: #172b4d;
   font-weight: 400;
@@ -80,16 +80,20 @@ nav {
   padding-top: 16pt;
 }
 
-ul li {
-  list-style: none;
-}
-
 ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
   padding-top: 12px;
+}
+
+nav ul {
+  display: none;
+}
+
+ul li {
+  list-style: none;
 }
 
 .work_section {
@@ -99,31 +103,34 @@ ul {
   padding-left: 24px;
   padding-right: 24px;
   display: grid;
-  align-items: center;
-  justify-items: center;
+  align-content: center;
+  justify-content: center;
   gap: 88px;
 }
 
 .card_container {
-  width: 327px;
-  min-height: 552px;
+  width: 100%;
   background-color: #fff;
   border-radius: 16px;
   display: grid;
-  padding: 16px;
+  padding: 0 0 16px 0;
   align-items: start;
   justify-items: center;
-  position: relative;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
 }
 
 .details_wrapper {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: start;
   margin: auto;
+}
+
+.img_wrapper img {
+  width: 100%;
+  padding: 16px;
 }
 
 h2 {
@@ -131,6 +138,10 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+}
+
+.desktop-screen {
+  display: none;
 }
 
 .list_wrapper {
@@ -159,7 +170,6 @@ h2 {
 
 .details_wrapper p {
   width: 295px;
-  height: 76px;
   color: #344563;
   font-weight: 400;
   font-size: 15px;
@@ -328,6 +338,11 @@ h5 {
   font-size: 40px;
 }
 
+.h2-width {
+  max-width: 200px;
+  height: 80px;
+}
+
 .p-white {
   width: 327px;
   font-size: 20px;
@@ -396,4 +411,213 @@ form::placeholder {
 
 .contact_items_container .button_wrapper {
   padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    height: 73px;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 32px;
+  }
+
+  nav ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  nav .hamburger_menu {
+    display: none;
+  }
+
+  .base_section {
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 10%;
+    border-radius: 0 0 0 100px;
+    background-image: url(images/Header\ bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .contact_items_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(images/contact\ form\ background\ shapes.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1290.66px 718.7px;
+    padding: 79px 75px 48px 74px;
+  }
+
+  h1 {
+    width: 45%;
+    font-weight: 700;
+    padding-top: 60px;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .card_container h2 {
+    width: 496px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .h2-width {
+    max-width: 100%;
+    height: 48px;
+  }
+
+  p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .details_wrapper p {
+    width: 496px;
+    font-size: 16px;
+  }
+
+  .mobile-screen {
+    display: none;
+  }
+
+  .desktop-screen {
+    display: flex;
+  }
+
+  .list_wrapper ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .work_section {
+    min-width: 375px;
+    padding-top: 142px;
+    padding-bottom: 142px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 142px;
+  }
+
+  .card_container {
+    width: 1156px;
+    border-radius: 24px;
+    justify-items: start;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 0;
+  }
+
+  .card_container:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .card_container:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  .details_wrapper {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .img_wrapper img {
+    width: 544px;
+  }
+
+  .about_myself_section {
+    padding-top: 142px;
+    padding-bottom: 142px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about_myself_section p {
+    width: 447px;
+  }
+
+  .language_wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .programing_languages_container {
+    min-width: 122px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h5 {
+    padding: 0 12px 20px 12px;
+  }
+
+  .about_myself_detail_wrapper {
+    min-width: 70%;
+  }
+
+  .skills_wrap {
+    min-width: 100%;
+  }
+
+  form {
+    width: 447px;
+    padding-bottom: 127px;
+  }
+
+  .contact-title {
+    padding-top: 20px;
+  }
+
+  .contact-page {
+    width: 100%;
+  }
+
+  .home_indicator {
+    width: 447px;
+  }
+
+  .contact-title p {
+    width: 569px;
+  }
+
+  .contact-page .button_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .home_indicator img {
+    display: none;
+  }
 }
