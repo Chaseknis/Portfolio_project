@@ -509,6 +509,14 @@ form::placeholder {
     display: flex;
   }
 
+  .social_icons_hover {
+    transition-duration: .5s;
+  }
+
+  .social_icons_hover:hover {
+    transform: scale(1.3);
+  }
+
   .list_wrapper ul li {
     font-weight: 400;
     font-size: 18px;
