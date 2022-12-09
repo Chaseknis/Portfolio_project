@@ -92,8 +92,34 @@ nav ul {
   display: none;
 }
 
+nav ul li:hover {
+  color: #6070ff;
+  transition: 0.5s;
+}
+
 ul li {
   list-style: none;
+  cursor: pointer;
+}
+
+.base_section ul .socials-1 {
+  animation: movetext 1s 0.4s forwards;
+}
+
+.base_section ul .socials-2 {
+  animation: movetext 1s 0.5s forwards;
+}
+
+.base_section ul .socials-3 {
+  animation: movetext 1s 0.6s forwards;
+}
+
+.base_section ul .socials-5 {
+  animation: movetext 1s 0.7s forwards;
+}
+
+.base_section ul .socials-4 {
+  animation: movetext 1s 0.8s forwards;
 }
 
 .work_section {
@@ -191,6 +217,12 @@ h2 {
   border-radius: 8px;
 }
 
+.programing_languages_list ul li:hover {
+  background: #6070ff;
+  color: #fff;
+  transition: 0.5s;
+}
+
 button {
   color: #396df2;
   background: transparent;
@@ -278,6 +310,16 @@ h3 {
   border-radius: 8px;
   display: flex;
   align-items: center;
+}
+
+.programing_languages_container:hover {
+  background: #253858;
+  transition: 0.5;
+}
+
+.programing_languages_container h5:hover {
+  color: #f7f7f9;
+  transition: 0.5;
 }
 
 .programing_languages_container img {
@@ -411,6 +453,24 @@ form::placeholder {
 
 .contact_items_container .button_wrapper {
   padding-top: 5px;
+}
+
+@keyframes scale {
+  0% {
+      transform: scale(1.3);
+  }
+  100% {
+      transform: scale(1);
+  }   
+}
+@keyframes movetext {
+  0% {
+      transform: translateY(40rem) rotateY(-20deg);
+  }
+  100% {
+      transform: translateY(0) rotateY(0);
+      opacity: 1;
+  }
 }
 
 @media screen and (min-width: 768px) {
