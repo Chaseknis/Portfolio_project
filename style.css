@@ -556,6 +556,11 @@ form::placeholder {
 
   .img_wrapper img {
     width: 544px;
+    transition: transform 1s;
+  }
+
+  .img_wrapper:hover img {
+    transform: scale(1.1);
   }
 
   .about_myself_section {
