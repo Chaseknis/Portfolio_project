@@ -52,6 +52,13 @@ h4 {
   font-weight: 400;
 }
 
+h5 {
+  color: #253858;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 p {
   width: 95%;
   padding-top: 12px;
@@ -92,14 +99,17 @@ nav ul {
   display: none;
 }
 
-nav ul li:hover {
-  color: #6070ff;
-  transition: 0.5s;
-}
-
 ul li {
   list-style: none;
   cursor: pointer;
+}
+
+.list_wrapper ul li {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  list-style: disc;
 }
 
 .base_section ul .socials-1 {
@@ -186,25 +196,12 @@ h2 {
   list-style: none;
 }
 
-.list_wrapper ul li {
-  color: #7a869a;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  list-style: disc;
-}
-
 .details_wrapper p {
   width: 295px;
   color: #344563;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-}
-
-.programing_languages_list {
-  padding-bottom: 25px;
-  padding-top: 12px;
 }
 
 .programing_languages_list ul li {
@@ -215,6 +212,16 @@ h2 {
   background: #ebebff;
   padding: 4px 12px;
   border-radius: 8px;
+}
+
+nav ul li:hover {
+  color: #6070ff;
+  transition: 0.5s;
+}
+
+.programing_languages_list {
+  padding-bottom: 25px;
+  padding-top: 12px;
 }
 
 .programing_languages_list ul li:hover {
@@ -336,13 +343,6 @@ hr {
   width: 100%;
 }
 
-h5 {
-  color: #253858;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-}
-
 .language_wrapper {
   display: flex;
   flex-direction: column;
@@ -457,19 +457,22 @@ form::placeholder {
 
 @keyframes scale {
   0% {
-      transform: scale(1.3);
+    transform: scale(1.3);
   }
+
   100% {
-      transform: scale(1);
-  }   
+    transform: scale(1);
+  }
 }
+
 @keyframes movetext {
   0% {
-      transform: translateY(40rem) rotateY(-20deg);
+    transform: translateY(40rem) rotateY(-20deg);
   }
+
   100% {
-      transform: translateY(0) rotateY(0);
-      opacity: 1;
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
   }
 }
 
@@ -570,7 +573,7 @@ form::placeholder {
   }
 
   .social_icons_hover {
-    transition-duration: .5s;
+    transition-duration: 0.5s;
   }
 
   .social_icons_hover:hover {
@@ -612,6 +615,10 @@ form::placeholder {
   .details_wrapper {
     width: 100%;
     padding-left: 30px;
+  }
+
+  .home_indicator img {
+    display: none;
   }
 
   .img_wrapper img {
@@ -688,9 +695,5 @@ form::placeholder {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-  }
-
-  .home_indicator img {
-    display: none;
   }
 }
