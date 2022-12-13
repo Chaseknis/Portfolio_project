@@ -99,7 +99,7 @@ VSCode, Github and Figma Templates
 
 Clone this repository to your desired folder:
 
-git@github.com:Chaseknis/Portfolio.git
+gh repo clone Chaseknis/chaseknis.github.io
 
 ### Install
 
@@ -173,8 +173,9 @@ If you like this project...
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse and my studying partners
-[Javier Hernandez] (https://github.com/wickathou)
-[Sohail] (https://github.com/batoorsohail)
+
+[Javier Hernandez](https://github.com/wickathou)
+[Sohail](https://github.com/batoorsohail)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
