@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -81,7 +80,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](chaseknis.github.io)
+- [Live Demo Link](https://chaseknis.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +154,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Chaseknis/chaseknis.github.io/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +172,9 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Microverse and my studying partner
+I would like to thank Microverse and my studying partners
+[Javier Hernandez] (https://github.com/wickathou)
+[Sohail] (https://github.com/batoorsohail)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
