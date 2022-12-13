@@ -68,14 +68,6 @@ p {
   line-height: 24px;
 }
 
-nav a {
-  color: #6070ff;
-  text-decoration: none;
-  line-height: 20px;
-  font-size: 18px;
-  font-weight: 700;
-}
-
 nav {
   width: 100%;
   height: 40px;
@@ -85,6 +77,28 @@ nav {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 16pt;
+}
+
+nav .logo a {
+  color: #6070ff;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+nav a {
+  color: #344563;
+  text-decoration: none;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  font-weight: 700;
+}
+nav a:hover {
+  color: #6070ff;
+  transition: 0.5s;
 }
 
 ul {
@@ -493,7 +507,7 @@ form::placeholder {
     gap: 32px;
   }
 
-  nav ul li {
+  nav ul li a {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
