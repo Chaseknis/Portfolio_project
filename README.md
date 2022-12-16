@@ -37,6 +37,8 @@
 
 **Building a small screen website using Html/css + Figma
 
+[Click here for the portfolio presentation video](https://www.loom.com/share/28c29650d8fc49d385239bf842e7bccc)
+
 ## 🛠 Built With <a name="built-with">Figma, VSCode, and Github</a>
 
 ###<a name="tech-stack">HTML,CSS,Github and Figma</a>
