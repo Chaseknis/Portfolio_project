@@ -79,6 +79,15 @@ nav {
   padding-top: 16pt;
 }
 
+nav a {
+  color: #344563;
+  text-decoration: none;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
 nav .logo a {
   color: #6070ff;
   text-decoration: none;
@@ -87,15 +96,6 @@ nav .logo a {
   font-weight: 700;
 }
 
-nav a {
-  color: #344563;
-  text-decoration: none;
-  line-height: 20px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  font-weight: 700;
-}
 nav a:hover {
   color: #6070ff;
   transition: 0.5s;
@@ -335,12 +335,12 @@ h3 {
 
 .programing_languages_container:hover {
   background: #253858;
-  transition: 0.5;
+  transition: 0.5s;
 }
 
 .programing_languages_container h5:hover {
   color: #f7f7f9;
-  transition: 0.5;
+  transition: 0.5s;
 }
 
 .programing_languages_container img {
