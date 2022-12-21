@@ -19,4 +19,3 @@ img.addEventListener('click', toggleNav);
 specs.forEach((element) => {
   element.addEventListener('click', closeMenu);
 });
-
