@@ -164,9 +164,9 @@ To run tests, run the following command:
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Chaseknis)
-- Twitter: [@twitterhandle](https://twitter.com/chasetotheworld)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/innocent-n-200826252/)
+- GitHub: [@chaseknis](https://github.com/Chaseknis)
+- Twitter: [@ChaseToTheWorld](https://twitter.com/chasetotheworld)
+- LinkedIn: [Innocent N.](https://www.linkedin.com/in/innocent-n-200826252/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,9 +176,9 @@ To run tests, run the following command:
 
 > I'll add the following section to the webpage.
 
-- [ ] **[work_section]**
-- [ ] **[about_myself_section]**
-- [ ] **[contact_section]**
+- [ ] **[work_section]()**
+- [ ] **[about_myself_section]()**
+- [ ] **[contact_section]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,6 +207,7 @@ If you like this project... Kindly leave a star ⭐
 I would like to thank Microverse and my studying partners
 
 [Javier Hernandez](https://github.com/wickathou)
+<br><br>
 [Sohail](https://github.com/batoorsohail)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -216,13 +217,13 @@ I would like to thank Microverse and my studying partners
 ## ❓ FAQ <a name="faq"></a>
 
 
-- **[Did you intergrate linters to your project]**
+- **[Did you intergrate linters to your project]()**
 
-  - [Yes]
+  - [Yes]()
 
-- **[Did you run all the tests]**
+- **[Did you run all the tests]()**
 
-  - [Yes]
+  - [Yes]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
