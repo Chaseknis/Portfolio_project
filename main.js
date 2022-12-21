@@ -15,4 +15,8 @@ function closeMenu() {
   menu.classList.toggle('active');
   img.src = 'images/Union.png';
 }
+img.addEventListener('click', toggleNav);
+specs.forEach((element) => {
+  element.addEventListener('click', closeMenu);
+});
 
