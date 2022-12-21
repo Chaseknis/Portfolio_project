@@ -41,7 +41,7 @@
 
 ## 🛠 Built With <a name="built-with">Figma, VSCode, and Github</a>
 
-###<a name="tech-stack">HTML/CSS, Javascript, Github and Figma</a>
+### <a name="tech-stack">HTML/CSS, Javascript, Github and Figma</a>
 
 
 <details>
