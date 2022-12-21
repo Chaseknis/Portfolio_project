@@ -1,10 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
+  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Microverse Task</b></h3>
+  <h3><b>Portfolio Project</b></h3>
 
 </div>
 
@@ -33,17 +34,15 @@
 
 # 📖<a name="about-project">Portfolio</a>
 
-> Describe your project in 1 or 2 sentences.
 
-**Building a small screen website using Html/css + Figma
+***Building a responsive portfolio website using HTML/CSS Javascript from a Figma design template***
 
 [Click here for the portfolio presentation video](https://www.loom.com/share/28c29650d8fc49d385239bf842e7bccc)
 
 ## 🛠 Built With <a name="built-with">Figma, VSCode, and Github</a>
 
-###<a name="tech-stack">HTML,CSS,Github and Figma</a>
+### <a name="tech-stack">HTML/CSS, Javascript, Github and Figma</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -70,32 +69,38 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Responsive design]()**
+- **[Linters integration]()**
+- **[Mobile menu functionality with Javascript]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://chaseknis.github.io/)
+
+<img width="1440" alt="Screenshot 2022-12-21 at 10 45 39" src="https://user-images.githubusercontent.com/97366651/208861893-52c1ebbf-8cee-4a6b-bf2d-2cf1336d0ce0.png">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+A beginner developer can use this template as a starting point for creating other HTML projects that are properly set up with CSS and have ESLint configured.
 
 ### Prerequisites
 
 In order to run this project you need:
-VSCode, Github and Figma Templates
+
+- NODE
+- ESlint set up
+- Figma Template
+
+<img width="1440" alt="Screenshot 2022-12-21 at 11 05 15" src="https://user-images.githubusercontent.com/97366651/208865216-91b3cda4-b31a-4de3-a014-71efd349c650.png">
+
 
 ### Setup
 
@@ -105,39 +110,64 @@ gh repo clone Chaseknis/chaseknis.github.io
 
 ### Install
 
-Install this project with:
+To obtain a copy of this repository, clone it to your desired folder:
+
+Commands: 
+
+```sh
+  git clone https://github.com/Chaseknis/chaseknis.github.io.git
+  cd hello-world
+  npm install -y
+```
+<br><br>
 
 ### Usage
 
 To run the project, execute the following command:
 
+- install serve with: 
+```sh
+npm install -g serve
+```
+
+```sh
+  serve -s .
+```
+
 ### Run tests
 
 To run tests, run the following command:
 
+- To check for CSS errors
 
-### Deployment
+```sh
+    npx stylelint "**/*.{css,scss}"
 
-You can deploy this project using:
+```
+- To check for HTML errors
+
+```sh
+    npx hint .
+```
+
+- To check for Javascript errors
+
+```sh
+    npx eslint .
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors">Innocent N.</a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Chaseknis)
-- Twitter: [@twitterhandle](https://twitter.com/chasetotheworld)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/innocent-n-200826252/)
+- GitHub: [@chaseknis](https://github.com/Chaseknis)
+- Twitter: [@ChaseToTheWorld](https://twitter.com/chasetotheworld)
+- LinkedIn: [Innocent N.](https://www.linkedin.com/in/innocent-n-200826252/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,8 +176,9 @@ You can deploy this project using:
 
 > I'll add the following section to the webpage.
 
-- [ ] **[work_section]**
-- [ ] **[about_myself_section]**
+- [ ] **[work_section]()**
+- [ ] **[about_myself_section]()**
+- [ ] **[contact_section]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,9 +194,8 @@ Feel free to check the [issues page](https://github.com/Chaseknis/chaseknis.gith
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project... Kindly leave a star ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,6 +207,7 @@ If you like this project...
 I would like to thank Microverse and my studying partners
 
 [Javier Hernandez](https://github.com/wickathou)
+<br><br>
 [Sohail](https://github.com/batoorsohail)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -185,15 +216,14 @@ I would like to thank Microverse and my studying partners
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Did you intergrate linters to your project]**
+- **[Did you intergrate linters to your project]()**
 
-  - [Yes]
+  - [Yes]()
 
-- **[Did you run all the tests]**
+- **[Did you run all the tests]()**
 
-  - [Yes]
+  - [Yes]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
