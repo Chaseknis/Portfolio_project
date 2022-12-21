@@ -13,20 +13,26 @@
 </head>
 <body>
     <header>
+        
         <nav>
             <div class="logo">
                 <a href="#">Chase K.</a>
             </div>
-            <div class="hamburger_menu"><img src="images/Union.png" alt=""></div>
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+            <div class="hamburger_menu">
+              <img src="images/Union.png" alt="Hamburger button image" id="hamburger_menu"/>
+            </div>
+            <div class="ul_class">
+              <ul class="nav_menu">
+                <li class="nav_item"><a href="#work">Portfolio</a></li>
+                <li class="nav_item"><a href="#about">About</a></li>
+                <li class="nav_item"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
         </nav>
+        
     </header>
     <main>
-        <section class="base_section">
+        <section id="homepage" class="base_section">
             <h1>
                 I’m Chase K Glad to see you!
             </h1>
@@ -46,7 +52,7 @@
     
         </section>
 
-        <section class="work_section">
+        <section id="work" class="work_section">
             <div class="card_container">
                 <div class="img_wrapper">
                     <img src="images/card_img_1.svg" alt="">
@@ -182,7 +188,7 @@
             </div>
         </section>
 
-        <section class="about_myself_section">
+        <section id="about" class="about_myself_section">
             <div class="about_myself_detail_wrapper">
                 <h2>
                     About Myself
@@ -246,7 +252,7 @@
 
         </section>
         
-        <section class="contact-page">
+        <section id="contact" class="contact-page">
             <div class="contact_items_container">
                 <div class="contact-title">
                     <h2 class="h2-white">Contact me</h2>
@@ -269,6 +275,7 @@
 
     </main>
 
+    <script src="main.js"></script>
     
 </body>
 </html>

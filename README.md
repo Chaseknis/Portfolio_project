@@ -1,10 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
+  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Microverse Task</b></h3>
+  <h3><b>Portfolio Project</b></h3>
 
 </div>
 
