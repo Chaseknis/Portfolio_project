@@ -73,6 +73,7 @@
 - **[Responsive design]()**
 - **[Linters integration]()**
 - **[Mobile menu functionality with Javascript]()**
+- **[Preservation of data in browser]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
