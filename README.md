@@ -179,6 +179,7 @@ To run tests, run the following command:
 - [ ] **[work_section]()**
 - [ ] **[about_myself_section]()**
 - [ ] **[contact_section]()**
+- [ ] **[Added contact form validation using javascript]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
