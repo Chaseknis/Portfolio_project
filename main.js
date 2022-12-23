@@ -185,7 +185,7 @@ function popUpModal(project) {
 function loadProjectCards(projects = []) {
   let projectContents = '';
 
-  projects.map((project) => {
+  projects.forEach((project) => {
     projectContents += `
     <div class="card_container">
       <div class="img_wrapper">
@@ -253,7 +253,7 @@ window.addEventListener('load', () => {
 
   const projectButtons = document.querySelectorAll('#see-project-button');
 
-  Array.from(projectButtons).map((element) => {
+  Array.from(projectButtons).forEach((element) => {
     element.addEventListener('click', () => {
       const projectID = element.getAttribute('data-project-id');
       const projectObj = projects.find((project) => project.id === projectID);
