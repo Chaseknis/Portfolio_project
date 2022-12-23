@@ -311,4 +311,3 @@ if (informationStored) {
     element.value = informationStored[element.name];
   });
 }
-
