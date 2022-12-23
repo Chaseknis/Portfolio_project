@@ -262,3 +262,31 @@ window.addEventListener('load', () => {
     });
   });
 });
+
+const email = document.getElementById('email');
+
+document.querySelector('#contact_button').addEventListener('click', (e) => {
+  const name = document.getElementById('name');
+  if (!name.validity.valid) {
+    document.getElementById('alertmessage').innerHTML = 'Name field is empty!';
+    e.preventDefault();
+    return;
+  }
+  if (email.validity.typeMismatch) {
+    document.getElementById('alertmessage').innerHTML = 'Email field is Empty!';
+    e.preventDefault();
+    return;
+  }
+  if (email.validity.patternMismatch) {
+    document.getElementById('alertmessage').innerHTML = 'Email should be in lowercase!';
+    e.preventDefault();
+    return;
+  }
+  const text = document.getElementById('textarea');
+  if (!text.validity.valid) {
+    document.getElementById('alertmessage').innerHTML = 'Empty message';
+    e.preventDefault();
+    return;
+  }
+  document.getElementById('form').press();
+});

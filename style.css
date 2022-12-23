@@ -632,6 +632,41 @@ form::placeholder {
   display: none;
 }
 
+.mail_input_wrapper input {
+  width: 100%;
+}
+
+.contact-page .button_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.form small {
+  font-size: 12px;
+}
+
+.error_hidden {
+  display: none;
+}
+
+.submit_response {
+  background-color: white;
+  color: #6070ff;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#alertmessage {
+  background-color: white;
+  color: #e74c3c;
+  padding: 4px;
+  border-radius: 8px;
+}
+
 @keyframes scale {
   0% {
     transform: scale(1.3);
@@ -921,7 +956,7 @@ form::placeholder {
     width: 65%;
   }
 
-  .logi {
+  .alertmessage {
     width: 35%;
   }
 
@@ -935,6 +970,11 @@ form::placeholder {
 
   .desktop_paragraph {
     display: block;
+  }
+
+  .submit_response {
+    padding: 60px;
+    font-size: 38px;
   }
 }
 
