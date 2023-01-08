@@ -36,6 +36,7 @@ header {
   background-color: #fff;
   padding: 0 0 12pt 0;
   filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
+  z-index: 10;
 }
 
 h1 {
@@ -541,7 +542,7 @@ form::placeholder {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  z-index: 3;
+  z-index: 11;
   overflow: auto;
 }
 
@@ -717,9 +718,10 @@ form::placeholder {
   }
 
   .base_section {
+    height: 100vh;
     padding-left: 260px;
     padding-right: 260px;
-    padding-top: 10%;
+    padding-top: 20%;
     border-radius: 0 0 0 100px;
     background-image: url(images/Header\ bg.svg);
     background-position: center;
@@ -745,7 +747,7 @@ form::placeholder {
   }
 
   h1 {
-    width: 45%;
+    width: 35%;
     font-weight: 700;
     padding-top: 60px;
     font-size: 48px;
@@ -765,7 +767,7 @@ form::placeholder {
   }
 
   p {
-    width: 100%;
+    width: 80%;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -863,7 +865,7 @@ form::placeholder {
   }
 
   .about_myself_section p {
-    width: 447px;
+    width: 500px;
   }
 
   .language_wrapper {
