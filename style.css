@@ -616,6 +616,17 @@ form::placeholder {
   justify-content: space-around;
 }
 
+.pop-up-button-wrapper a {
+  text-decoration: none;
+  padding: 14px;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #6070ff;
+}
+
 .pop-up-body-contents p {
   width: 100%;
   font-style: normal;

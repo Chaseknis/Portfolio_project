@@ -91,6 +91,22 @@ const projects = [
     liveLink: '#',
     sourceLink: '#',
   },
+  {
+    id: 'fifth_project',
+    name: 'Chess-Masters Tournament',
+    background: 'CANOPY',
+    stack: 'Back End Dev',
+    year: '2022',
+    image: 'images/card_image_5.png',
+    alt: 'card image',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    descriptionExpanded: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    caption: 'A responsive website of the Chess-Masters Tournament designed to register chess players into the tournament and provide news related all over the world.',
+    tools: ['html', 'css', 'javascript'],
+    toolsTwo: ['github',],
+    liveLink: '#',
+    sourceLink: '#',
+  },
 ];
 
 function getToolsTemplate(tools) {
@@ -152,13 +168,13 @@ function popUpModal(project) {
             <hr/>
 
             <div class="pop-up-button-wrapper">
-              <button class="pop_up_button">
+              <a href="https://chaseknis.github.io/first_capstone_project/" class="pop_up_button">
                 <span>
                   See live
                 </span> 
 
                 <img src="images/Icon-Export.png"/>
-              </button>
+              </a>
 
               <button class="pop_up_button github_button">
                 <span>
