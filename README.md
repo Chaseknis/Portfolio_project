@@ -73,7 +73,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://chaseknis.github.io/)
+- [Live Demo Link](https://chaseknis.github.io/Portfolio_project/)
 
 <img width="1440" alt="Screenshot 2022-12-21 at 10 45 39" src="https://user-images.githubusercontent.com/97366651/208861893-52c1ebbf-8cee-4a6b-bf2d-2cf1336d0ce0.png">
 
